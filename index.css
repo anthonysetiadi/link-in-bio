@@ -16,8 +16,8 @@ header {
 }
 
 header > img {
-	width: 10em;
-	height: 10em;
+	width: 8em;
+	height: 8em;
 	border-radius: 100%;
 	border: 1px solid #fff;
 	box-shadow: rgb(28 32 93 / 24%) 0px 2px 8px 0px;
@@ -46,24 +46,15 @@ ul {
 
 ul > li {
 	background-color: #fffa;
-	backdrop-filter: blur(10px) saturate(160%) contrast(180%);
-	-webkit-backdrop-filter: blur(10px) saturate(160%) contrast(180%);
 	border-radius: 10em;
 	margin: 1.4em 0;
-	box-shadow: rgb(28 32 93 / 24%) 0px 2px 8px 0px;
-}
-
-ul > li > a:hover {
-	transition: cubic-bezier(0.07, 1.41, 0.82, 1.41) 0.2s;
-	transform: scale(1.02);
 }
 
 ul > li > a {
 	display: flex;
 	flex-direction: row;
-	justify-content: center;
 	align-items: center;
-	gap: 0.5em;
+	gap: 4em;
 	padding: 1em;
 }
 
@@ -73,5 +64,6 @@ a {
 }
 
 footer > p {
+	font-size: 0.8em;
 	text-align: center;
 }
